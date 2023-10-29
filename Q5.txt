@@ -1,0 +1,5 @@
+Em geral, a versao paralela foi mais rapida que a serial. Isso ocorre pois o algoritmo escolhido (Bubble Sort), quando
+realizado serialmente, utiliza um unico core para a realizacao da ordenacao do array, enquanto que a sua versao paralela
+divide esse array em multiplos pedacos e ordena cada um deles, diminuindo a complexidade.
+
+Vale ressaltar que para arrays muito pequenos, pode nao valer a pena utilizar a versao paralela.

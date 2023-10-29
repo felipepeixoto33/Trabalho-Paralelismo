@@ -2,6 +2,11 @@ import java.math.BigInteger;
 import java.util.Random;
 
 public class RSA {
+    public static void main(String[] args) throws InterruptedException {
+        RSA r = new RSA();
+        r.solve();
+    }
+
     public String solve() throws InterruptedException {
         double initTime = System.currentTimeMillis();
 

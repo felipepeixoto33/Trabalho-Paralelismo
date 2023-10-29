@@ -1,0 +1,6 @@
+Falaremos sobre a paralelizacao do quick sort. Primeiramente, ela depende da quantidade de elementos que voce vai possui no array. Para quantidades pequenas, nao eh vantajoso realizar a paralelizacao,
+enquanto que, para quantidades grandes, essa paralelizacao acaba por melhorar a performance. Falando mais especificamente sobre a paralelizacao,
+para realiza-la, temos que selecionar um pivo e, a partir dele, reorganizar o array de forma que os numeros maiores que ele
+fiquem ah direita e os menores, ah esquerda. Nos temos que dividir esse processo de particionamento entre multiplas threads,
+para que cada uma realize uma pequena parte do trabalho. Apos cada particionamento, nos geramos dois subarrays, que devem ser
+direcionados a novas threads para tambem os ordena-los. Para concluir, agora basta juntar cada subarray e voce tera o seu array ordenado.

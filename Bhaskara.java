@@ -2,6 +2,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Bhaskara {
+    public static void main(String[] args) throws InterruptedException {
+        Bhaskara b = new Bhaskara();
+        b.parallel_solve(1, 4, 3);
+    }
+
     public List<Thread> parallel_solve(int a, int b, int c) throws InterruptedException {
         double delta = Math.pow(b, 2) - 4*a*c;
         final double[] roots = new double[2];

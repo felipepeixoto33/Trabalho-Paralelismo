@@ -1,10 +1,8 @@
-import java.math.BigInteger;
-import java.util.Random;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
-        Primos p = new Primos();
-        System.out.println(p.solve(100000));
+        //System.out.println("Tempo Sorted Array Paralelo: " + Arrays.toString(arr));
     }
 }

@@ -3,6 +3,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class Primos {
+    public static void main(String[] args) throws InterruptedException {
+        Primos p = new Primos();
+        List<Long> result = p.solve(1000);
+        System.out.println(result);
+    }
+
     public List<Long> solve(long n) throws InterruptedException {
         List<Long> primes = Collections.synchronizedList(
                 new ArrayList<>(
