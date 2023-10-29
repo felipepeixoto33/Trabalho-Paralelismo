@@ -1,0 +1,1 @@
+O motivo disso pode ter sido pelo fato de o algoritmo serial ja possuir um tempo otimo. Mais especificamente, o tempo necessario para montar o algoritmo de forma paralela acaba sendo maior que o proprio tempo para executar esse algoritmo de forma serial, tornando o paralelismo inviavel.
