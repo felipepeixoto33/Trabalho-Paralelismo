@@ -29,7 +29,6 @@ public class Primos {
 
             thread.start();
             thread.join();
-            System.out.println(thread.getName());
         }
 
         return primes;
