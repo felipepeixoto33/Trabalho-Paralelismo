@@ -7,7 +7,7 @@ public class BubbleSortAV2 {
         int[] arr2 = new int[arr.length];
         System.arraycopy(arr, 0, arr2, 0, arr.length);
 
-        int numThreads = Thread.activeCount(); // Number of threads to use
+        int numThreads = Thread.activeCount();
 
 
         BubbleSortAV2.bubbleSortParalelo(arr, numThreads);
